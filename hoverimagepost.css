@@ -1,36 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
-}
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-::-webkit-scrollbar {
-  width: 3px;
-  height: 3px;
-}
-::-webkit-scrollbar-thumb {background: #FF5B06;}
-ul, li {list-style: none;}
-li {padding: 2px 5px;}
-a, a:active {
-  color: #FF5B06;
-  text-decoration: none;
-}
-a:hover {
-  opacity: .85;
-  text-decoration: underline;
-}
-img {display: block}
-img {width: 100%;}
-h1 {text-transform: uppercase;}
-h1, h2, h3, h4, h5, h6 {
-  *color: #FF5B06;
-  font-weight: 400;
-}
-
-
 
 /*----------------------------------
 /* CSS Main
@@ -113,34 +80,6 @@ section div.hr {
   margin: 0 auto;
   padding: 0;
 }
-
-/*----------------------------------
-/* CSS Side
-/*----------------------------------*/
-
-.side {
-  background: #FF5B06;
-  border-right: 1px solid  #D74E07;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  width: 54px;
-  z-index: 2;
-}
-.side .fa  {font-size: 25px;}
-.side ul {
-  margin: 10px 0 10px;
-  padding: 10px 5px;
-}
-.side li {
-  border-bottom: 1px solid #D74E07;
-  padding: 10px 0 10px;
-  position: relative;
-}
-.side li:last-child {border-bottom: 0;}
-
 /*----------------------------------
 /* CSS data-title
 /*----------------------------------*/
