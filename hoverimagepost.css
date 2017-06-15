@@ -5,38 +5,6 @@
 }
 
 /*----------------------------------
-/* CSS data-title
-/*----------------------------------*/
-
-.data-title {}
-.data-title:after, .data-title:before {
-  background: #FF5B06;
-  color: #FFF;
-  content: "";
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: -100px;
-  -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-transition: all .6s ease-in-out;
-     -moz-transition: all .6s ease-in-out;
-          transition: all .6s ease-in-out;
-}
-.data-title:before {}
-.data-title:after {
-  border-top: 1px solid #D74E05;
-  border-right: 5px solid #D74E05;
-  border-bottom: 1px solid #D74E05;
-  content: attr(data-title);
-  margin: auto;
-  padding: 10px 20px;
-}
-li:hover.data-title:after, 
-li:hover.data-title:before {left: 49px;opacity: 1;}
-
-/*----------------------------------
 /* CSS Grid -Effect
 /*----------------------------------*/
 
