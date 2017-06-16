@@ -1,22 +1,3 @@
-body {
-    background-color: #f9f9f9;
-    font-size: 16px;
-    color: #444;
-}
-
-.post-body h2 {
-    color: #e25633;
-    text-align: center;
-}
-
-.post-body {
-    max-width: 680px;
-    margin: 20px auto;
-    border: 10px solid #f0f0f0;
-    padding: 15px 20px;
-    background-color: #fff;
-    color: #444;
-}
 
 /* CSS Pre Code Highlighter */
 pre {
